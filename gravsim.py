@@ -5,8 +5,6 @@ Created on Fri Dec  2 16:33:35 2016
 @author: Anton
 """
 
-#!usr/bin/python
-
 import numpy
 import matplotlib.pyplot as plt
 from time import time
