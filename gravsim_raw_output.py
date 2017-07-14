@@ -160,7 +160,7 @@ def simulate_particles(*args):
 ###########################################################
 #####################Example###############################
 '''
-initial_parameters(2332800,0.001,"output.txt")#outputs a file with positions, velocities, accelerations and masses of each particle at every iteration
+initial_parameters(2332800,1,"output.txt")#outputs a file with positions, velocities, accelerations and masses of each particle at every iteration
 sun = Particle(0,0,5.972e24,0,0)
 earth = Particle(385000000,0,7.34767309e22,1000,90)
 simulate_particles(sun, earth)
