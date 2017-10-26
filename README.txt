@@ -19,11 +19,10 @@ Accuracy:
 Accuracy of simulation can be adjusted by changing 'time_between_iterations'.
 
 For many iterations:
-############################################!!!WARNINGS!!!###############################################################
-#!!!Computations can take time, depending on number of particles, and time between iterations(accuracy of simulation)!!!#
-#!!!Accuracy of simulation greatly increased by adjusting 'time_between_iterations'!!!###################################
-#!!!output files can be huge, >0.5Gb depending on accuracy of simulation!!!##############################################
-#!!!DO NOT OUTPUT AS GRAPH IF MANY ITERATIONS ARE NEEDED, AS THIS TAKES HUGE AMOUNTS OF MEMORY!!!########################
-#########################################################################################################################
-
-For an n number of particles, algorithm time complexity = O(n^2), meaning that amount of time for output scales quadratically as n increases.
+#######################!!!WARNINGS!!!########################
+#!!!Computations can take time, depending on number of particles, and time between iterations(accuracy of simulation)!!!
+#!!!Accuracy of simulation greatly increased by adjusting 'time_between_iterations'!!!
+#!!!output files can be huge, >0.5Gb depending on accuracy of simulation!!!
+#!!!DO NOT OUTPUT AS GRAPH IF MANY ITERATIONS ARE NEEDED, AS THIS TAKES HUGE AMOUNTS OF MEMORY!!!
+#For an n number of particles, algorithm time complexity = O(n^2).
+#############################################################
