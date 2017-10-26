@@ -6,6 +6,7 @@ Created on Fri Dec  2 16:33:35 2016
 """
 
 #!/usr/bin/python
+#tc=O(n^2)
 
 import numpy
 from time import time
@@ -171,7 +172,7 @@ def simulate_particles(*args):
     print("#####################Complete!#####################")     
 
 #####################INITIAL-PARAMETERS#####################
-#initial_parameters(total_time, time_between_iterations, filename)
+#initial_parameters(total_time, time_between_iterations)
 #####################OUTPUT-STYLE###########################
 #output(graph = True/False, outputfile = 'outputfile.txt'(if needed))
 #####################PARTICLE-CREATION######################
