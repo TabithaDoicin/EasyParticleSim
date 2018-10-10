@@ -156,11 +156,9 @@ def simulate_particles(*args):
             D_O_L[IC*t+3].append(D_O_L[IC*t+3][i]+D_O_L[IC*t+5][i]*time_increment)#x-vel
         if outputasgraph == True: #graphoutput
             for b in range(len(args)):
-                c = numpy.random.rand(3,1)
+                colours = numpy.random.rand(0,100)
                 plt.figure(1)
-                plt.plot(D_O_L[7*b], D_O_L[7*b+1], color = c, linestyle = '-')
-                plt.figure(2)
-                plt.scatter(D_O_L[7*b], D_O_L[7*b+1], color = c, edgecolors = 'k', alpha = 0.5)
+                plt.scatter(D_O_L[7*b], D_O_L[7*b+1], c=colours, edgecolors = 'k', alpha = 0.5)
     if outputasfile == True: #fileoutput
         for l in range(IC*len(args)):
             json.dump(D_O_L[l],outputfile)
